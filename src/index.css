@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Light mode overrides */
+.light {
+  @apply bg-white text-gray-900;
+}
+
+.light .bg-black\/40 {
+  @apply bg-white/40;
+}
+
+.light .bg-black\/80 {
+  @apply bg-white/80;
+}
+
+.light .bg-black\/90 {
+  @apply bg-white/90;
+}
+
+.light .text-gray-400 {
+  @apply text-gray-900;
+}
+
+.light .border-purple-500\/20 {
+  @apply border-purple-500/40;
+}
+
+.light input,
+.light textarea {
+  @apply bg-gray-50 text-gray-900 border-purple-200;
+}
