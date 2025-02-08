@@ -6,28 +6,33 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
 const posts = [
   {
-    title: 'The Science Behind Lucid Dreaming',
-    excerpt: 'Explore the neurological processes that enable conscious dreaming and how we can influence them.',
-    date: '2025-03-15',
-    readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    title: "The Science Behind Lucid Dreaming",
+    excerpt:
+      "Explore the neurological processes that enable conscious dreaming and how we can influence them.",
+    date: "2025-03-15",
+    readTime: "5 min read",
+    image:
+      "https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", // Brain scan/neural activity image
   },
   {
-    title: 'Mastering Dream Control',
-    excerpt: 'Learn advanced techniques for maintaining consciousness and control in your dreams.',
-    date: '2025-03-12',
-    readTime: '7 min read',
-    image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    title: "Mastering Dream Control",
+    excerpt:
+      "Learn advanced techniques for maintaining consciousness and control in your dreams.",
+    date: "2025-03-12",
+    readTime: "7 min read",
+    image:
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", // Ethereal, dreamy landscape
   },
   {
-    title: 'Therapeutic Benefits of Dream Manipulation',
-    excerpt: 'Discover how controlled dreaming can help overcome trauma and anxiety.',
-    date: '2025-03-10',
-    readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-  }
+    title: "Therapeutic Benefits of Dream Manipulation",
+    excerpt:
+      "Discover how controlled dreaming can help overcome trauma and anxiety.",
+    date: "2025-03-10",
+    readTime: "6 min read",
+    image:
+      "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", // Calming sunrise/therapeutic image
+  },
 ];
-
 const Blog = () => {
   return (
     <PageContainer>
