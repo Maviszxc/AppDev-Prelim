@@ -45,7 +45,7 @@ const Home = () => {
       <div className="grid md:grid-cols-3 gap-8 mt-20">
         <div className="text-center">
           <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-purple-600/20 flex items-center justify-center">
-            <Brain className="text-purple-400" size={32} />
+            <Brain className="dark:text-purple-400 text-purple-900" size={32} />
           </div>
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
             Lucid Dream Training
@@ -57,7 +57,7 @@ const Home = () => {
 
         <div className="text-center">
           <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-purple-600/20 flex items-center justify-center">
-            <Stars className="text-purple-400" size={32} />
+            <Stars className="dark:text-purple-400 text-purple-900" size={32} />
           </div>
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
             Custom Dreamscapes
